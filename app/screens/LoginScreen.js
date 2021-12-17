@@ -1,13 +1,8 @@
 import React from 'react'
-import { StyleSheet, Text, View,Image } from 'react-native'
-import { Formik } from 'formik';
+import { StyleSheet,Image } from 'react-native'
 import * as Yup from 'yup';
 
-import AppText from "../../components/AppText"
-import AppTextInput from '../../components/AppTextInput'
 import Screen from "../../components/Screen";
-import AppButton from "../../components/AppButton";
-import ErrorMessage from '../../components/ErrorMessage';
 import AppFormField from '../../components/AppFormField';
 import SubmitButton from '../../components/SubmitButton';
 import AppForm from '../../components/AppForm';
@@ -50,8 +45,6 @@ export default function LoginScreen(props) {
                         />
                         <SubmitButton title="Login" />
             </AppForm>
-
-
         </Screen>
     )
 }
